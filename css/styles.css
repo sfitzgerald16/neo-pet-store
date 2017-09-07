@@ -1,0 +1,111 @@
+@import 'https://fonts.googleapis.com/css?family=Satisfy|Open+Sans:300,400,700';
+
+/*nav and logo*/
+.flexy{
+  display: flex;
+  align-items: flex-end;
+}
+
+#logo-img{
+  height: 65px;
+  width: auto;
+  display: inline;
+}
+
+.lobster-text{
+  font-family: 'Satisfy', cursive;
+  color: #FF827B;
+  font-size: 2.5em;
+}
+
+#inline{
+  display: inline;
+}
+
+.nav>li>a:hover{
+  color: #FF827B;
+}
+
+.nav>li>a{
+  padding: 5px 50px 0px 50px;
+  font-size: 1.25em;
+  color: #61AEE6
+}
+/*end nav and logo*/
+
+/*hero image*/
+#hero-background{
+  background-image: url('../img/hero.jpg');
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+}
+
+.sans-text{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+#hero-text{
+  color: white;
+  font-size: 2em;
+  padding-top: 65px;
+  font-weight: 400;
+}
+
+.thumbnail{
+  background-color: #EDF1F4;
+}
+
+.product-image{
+  padding: 5%;
+}
+
+.purchase-button{
+  background-color: #5BC0DE;
+  border-color: #5BC0DE;
+}
+
+.purchase-button:hover{
+  background-color: #31B0D5;
+  border-color: #31B0D5;
+}
+
+/*FOOTER*/
+
+footer{
+  background-color: #231F20;
+  height: 135px;
+}
+
+#logo-footer{
+  height: 90px;
+  margin-top: -16px;
+}
+
+.footer-border{
+  border-right: 1px solid #313131;
+}
+
+#footer-padding{
+  padding-top: 20px;
+}
+
+#contact-text,#contact-text a{
+  color: #BFC0C1;
+}
+
+address{
+  margin-left: 4%;
+}
+
+i{
+  margin-right: 3px;
+}
+
+#footer-copyright{
+  color: #4C4C4C;
+}
